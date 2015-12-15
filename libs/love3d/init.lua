@@ -490,10 +490,10 @@ function l3d.bind_shadow_map(map)
 		gl.DrawBuffer(GL.NONE)
 		gl.Viewport(0, 0, map.width, map.height)
 	else
-		gl.DrawBuffer(GL.BACK)
 		--- XXX: This is not a good assumption on ES!
 		-- gl.BindFramebuffer(0)
 		love.graphics.setCanvas()
+		gl.DrawBuffer(GL.BACK)
 	end
 end
 
@@ -530,23 +530,20 @@ function l3d.new_shadow_map(w, h)
 	gl.GenFramebuffers(1, buffers)
 	gl.BindFramebuffer(GL.FRAMEBUFFER, buffers[0])
 
-	local col = ffi.new("GLfloat[4]", 1, 1, 1, 1)
-	gl.TexParameterfv(GL.TEXTURE_2D, GL.TEXTURE_BORDER_COLOR, col);
-
 	gl.GenTextures(1, buffers+1)
 	gl.BindTexture(GL.TEXTURE_2D, buffers[1])
 	gl.TexImage2D(GL.TEXTURE_2D, 0, GL.DEPTH_COMPONENT24, w, h, 0, GL.DEPTH_COMPONENT, GL.FLOAT, nil)
 	gl.TexParameteri(GL.TEXTURE_2D, GL.TEXTURE_MAG_FILTER, GL.LINEAR)
 	gl.TexParameteri(GL.TEXTURE_2D, GL.TEXTURE_MIN_FILTER, GL.LINEAR)
-	gl.TexParameteri(GL.TEXTURE_2D, GL.TEXTURE_WRAP_S, GL.CLAMP_TO_BORDER)
-	gl.TexParameteri(GL.TEXTURE_2D, GL.TEXTURE_WRAP_T, GL.CLAMP_TO_BORDER)
+	gl.TexParameteri(GL.TEXTURE_2D, GL.TEXTURE_WRAP_S, GL.CLAMP_TO_EDGE)
+	gl.TexParameteri(GL.TEXTURE_2D, GL.TEXTURE_WRAP_T, GL.CLAMP_TO_EDGE)
 
 	gl.TexParameteri(GL.TEXTURE_2D, GL.TEXTURE_COMPARE_MODE, GL.COMPARE_REF_TO_TEXTURE);
 	gl.TexParameteri(GL.TEXTURE_2D, GL.TEXTURE_COMPARE_FUNC, GL.LEQUAL);
-	-- gl.TexParameteri(GL.TEXTURE_2D, GL.DEPTH_TEXTURE_MODE, GL.INTENSITY);
 	gl.FramebufferTexture(GL.FRAMEBUFFER, GL.DEPTH_ATTACHMENT, buffers[1], 0)
 
 	gl.DrawBuffer(GL.NONE)
+	gl.ReadBuffer(GL.NONE)
 
 	if gl.CheckFramebufferStatus(GL.FRAMEBUFFER) ~= GL.FRAMEBUFFER_COMPLETE then
 		l3d.bind_shadow_map()

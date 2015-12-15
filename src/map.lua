@@ -1,6 +1,12 @@
 local cpml = require "cpml"
 local iqm = require "iqm"
 local geo = require "geometry"
+local memoize = require "memoize"
+local lume = require "lume"
+
+local load_model = memoize(function(path, actor)
+	return iqm.load(path, actor)
+end)
 
 local function load(world, path)
 	local chunk = love.filesystem.load(path)
@@ -21,7 +27,7 @@ local function load(world, path)
 				love.filesystem.isFile(entity.path),
 				string.format("%s doesn't exist!", entity.path)
 			)
-			entity.mesh = assert(iqm.load(entity.path, entity.actor))
+			entity.mesh = assert(load_model(entity.path, entity.actor))
 		end
 
 		entity.position	 = cpml.vec3(entity.position)
@@ -55,8 +61,6 @@ local function load(world, path)
 			end
 		end
 	end
-
-	-- print(world.octree.count)
 
 	return true
 end

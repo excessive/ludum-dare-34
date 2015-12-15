@@ -102,7 +102,7 @@ function renderer:send_lights(shader, caster, light_vp)
 	local lights = math.min(math.max(#self.lights, 1), 4)
 	shader:sendInt("u_lights", lights)
 
-	if caster and self.shadow_map then
+	if light_vp and self.shadow_map then
 		shader:send("u_shadow_vp", light_vp:to_vec4s())
 		l3d.bind_shadow_texture(self.shadow_map, shader)
 	end
@@ -218,6 +218,7 @@ function renderer:update(dt)
 
 	love.graphics.setShader(shader)
 	love.graphics.clearDepth()
+	love.graphics.setBlendMode("replace", false)
 
 	shader:send("u_ambient", self.lights.ambient)
 	self:send_lights(shader, caster, light_vp)
@@ -258,6 +259,7 @@ function renderer:update(dt)
 	end
 
 	-- Reset
+	love.graphics.setBlendMode("alpha", true)
 	love.graphics.setDepthTest()
 	love.graphics.setCulling()
 
