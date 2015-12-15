@@ -1,0 +1,2586 @@
+Please report this on GitHub at https://github.com/excessive/ludum-dare-34 or
+send a DM on Twitter to @LandonManning or @shakesoda.
+
+=========================
+== 2015-12-11 18:57:03 ==
+=========================
+
+Error: scenes/gameplay.lua:15: attempt to perform arithmetic on local 'l' (a table value)
+stack traceback:
+	scenes/gameplay.lua:15: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:66: in function 'update'
+	conf.lua:296: in function <conf.lua:150>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-11 18:57:28 ==
+=========================
+
+Error: libs/tactile.lua:73: attempt to index local 'self' (a nil value)
+stack traceback:
+	libs/tactile.lua:73: in function 'getValue'
+	scenes/gameplay.lua:14: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:66: in function 'update'
+	conf.lua:296: in function <conf.lua:150>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-11 19:01:40 ==
+=========================
+
+Error: scenes/splash.lua:67: attempt to index field 'action' (a nil value)
+stack traceback:
+	scenes/splash.lua:67: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:66: in function 'update'
+	conf.lua:296: in function <conf.lua:150>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-11 19:27:04 ==
+=========================
+
+Error: libs/cpml/modules/mat4.lua:267: attempt to perform arithmetic on a nil value
+stack traceback:
+	libs/cpml/modules/mat4.lua:267: in function 'len'
+	libs/cpml/modules/mat4.lua:274: in function 'rotate'
+	libs/love3d/init.lua:349: in function 'rotate'
+	libs/love3d/init.lua:657: in function 'rotate'
+	scenes/gameplay.lua:33: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:67: in function 'update'
+	conf.lua:296: in function <conf.lua:150>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-11 19:27:55 ==
+=========================
+
+Error: scenes/gameplay.lua:35: bad argument #4 to 'circle' (number expected, got no value)
+stack traceback:
+	[C]: in function 'circle'
+	scenes/gameplay.lua:35: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:67: in function 'update'
+	conf.lua:296: in function <conf.lua:150>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-11 19:58:51 ==
+=========================
+
+Error: libs/cpml/modules/vec3.lua:54: attempt to index local 'v' (a nil value)
+stack traceback:
+	libs/cpml/modules/vec3.lua:54: in function 'isvector'
+	libs/cpml/modules/vec3.lua:100: in function '__mul'
+	scenes/gameplay.lua:10: in function 'switch'
+	scenes/splash.lua:69: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:66: in function 'update'
+	conf.lua:296: in function <conf.lua:150>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-11 19:59:29 ==
+=========================
+
+Error: scenes/gameplay.lua:53: attempt to index field 'position' (a nil value)
+stack traceback:
+	scenes/gameplay.lua:53: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:67: in function 'update'
+	conf.lua:296: in function <conf.lua:150>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-11 20:00:22 ==
+=========================
+
+Error: scenes/gameplay.lua:17: attempt to perform arithmetic on field 'speed' (a nil value)
+stack traceback:
+	scenes/gameplay.lua:17: in function 'process'
+	libs/tiny.lua:255: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:66: in function 'update'
+	conf.lua:296: in function <conf.lua:150>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-11 20:21:15 ==
+=========================
+
+Error: scenes/gameplay.lua:29: attempt to call global 'requireAll' (a nil value)
+stack traceback:
+	scenes/gameplay.lua:29: in function 'switch'
+	scenes/splash.lua:69: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:66: in function 'update'
+	conf.lua:296: in function <conf.lua:150>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-11 20:22:44 ==
+=========================
+
+Error: libs/cpml/modules/vec3.lua:54: attempt to index local 'v' (a nil value)
+stack traceback:
+	libs/cpml/modules/vec3.lua:54: in function 'isvector'
+	libs/cpml/modules/vec3.lua:85: in function '__add'
+	scenes/gameplay.lua:21: in function 'process'
+	libs/tiny.lua:255: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:66: in function 'update'
+	conf.lua:296: in function <conf.lua:150>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-11 20:23:32 ==
+=========================
+
+Error: libs/cpml/modules/vec3.lua:54: attempt to index local 'v' (a nil value)
+stack traceback:
+	libs/cpml/modules/vec3.lua:54: in function 'isvector'
+	libs/cpml/modules/vec3.lua:85: in function '__add'
+	scenes/gameplay.lua:21: in function 'process'
+	libs/tiny.lua:255: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:66: in function 'update'
+	conf.lua:296: in function <conf.lua:150>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-11 21:14:34 ==
+=========================
+
+Error: systems/render.lua:12: Could not open file assets/shaders/shader.glsl. Does not exist.
+stack traceback:
+	[C]: in function 'newShader'
+	systems/render.lua:12: in function 'onAddToWorld'
+	libs/tiny.lua:525: in function 'tiny_manageSystems'
+	libs/tiny.lua:678: in function 'update'
+	main.lua:69: in function 'update'
+	conf.lua:296: in function <conf.lua:150>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-11 21:23:53 ==
+=========================
+
+Error: systems/render.lua:25: attempt to call field 'setDepthTest' (a nil value)
+stack traceback:
+	systems/render.lua:25: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:80: in function 'update'
+	conf.lua:296: in function <conf.lua:150>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-11 21:24:05 ==
+=========================
+
+Error: systems/render.lua:72: Variable 'force_color' does not exist.
+A common error is to define but not use the variable.
+stack traceback:
+	[C]: in function 'sendInt'
+	systems/render.lua:72: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:80: in function 'update'
+	conf.lua:296: in function <conf.lua:150>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-11 21:24:47 ==
+=========================
+
+Error: systems/render.lua:73: attempt to index global 'l3d' (a nil value)
+stack traceback:
+	systems/render.lua:73: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:80: in function 'update'
+	conf.lua:296: in function <conf.lua:150>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-11 21:25:11 ==
+=========================
+
+Error: systems/render.lua:74: attempt to perform arithmetic on global 'light_view' (a nil value)
+stack traceback:
+	systems/render.lua:74: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:80: in function 'update'
+	conf.lua:296: in function <conf.lua:150>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-11 21:26:17 ==
+=========================
+
+Error: systems/render.lua:88: attempt to index field 'cache' (a nil value)
+stack traceback:
+	systems/render.lua:88: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:80: in function 'update'
+	conf.lua:296: in function <conf.lua:150>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-11 21:27:00 ==
+=========================
+
+Error: systems/render.lua:72: attempt to index local 'shader' (a nil value)
+stack traceback:
+	systems/render.lua:72: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:80: in function 'update'
+	conf.lua:296: in function <conf.lua:150>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-11 21:27:16 ==
+=========================
+
+Error: systems/render.lua:86: attempt to index local 'shader' (a nil value)
+stack traceback:
+	systems/render.lua:86: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:80: in function 'update'
+	conf.lua:296: in function <conf.lua:150>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-11 21:27:26 ==
+=========================
+
+Error: systems/render.lua:86: attempt to index local 'shader' (a nil value)
+stack traceback:
+	systems/render.lua:86: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:80: in function 'update'
+	conf.lua:296: in function <conf.lua:150>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-11 21:27:33 ==
+=========================
+
+Error: libs/cpml/modules/mat4.lua:267: attempt to perform arithmetic on a nil value
+stack traceback:
+	libs/cpml/modules/mat4.lua:267: in function 'len'
+	libs/cpml/modules/mat4.lua:274: in function 'rotate'
+	libs/love3d/init.lua:349: in function 'rotate'
+	libs/love3d/init.lua:657: in function 'rotate'
+	scenes/gameplay.lua:35: in function 'process'
+	libs/tiny.lua:255: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:80: in function 'update'
+	conf.lua:296: in function <conf.lua:150>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-11 21:28:09 ==
+=========================
+
+Error: libs/cpml/modules/mat4.lua:267: attempt to perform arithmetic on a nil value
+stack traceback:
+	libs/cpml/modules/mat4.lua:267: in function 'len'
+	libs/cpml/modules/mat4.lua:274: in function 'rotate'
+	libs/love3d/init.lua:349: in function 'rotate'
+	libs/love3d/init.lua:657: in function 'rotate'
+	scenes/gameplay.lua:35: in function 'process'
+	libs/tiny.lua:255: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:80: in function 'update'
+	conf.lua:296: in function <conf.lua:150>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-12 03:02:53 ==
+=========================
+
+Error: scenes/gameplay.lua:12: module 'assets.entities.butter_Knife' not found:
+	no field package.preload['assets.entities.butter_Knife']
+	no 'assets/entities/butter_Knife' in LOVE game directories.
+	no file 'assets/entities/butter_Knife.so' in LOVE paths.
+	no file './assets/entities/butter_Knife.lua'
+	no file '/usr/share/luajit-2.0.4/assets/entities/butter_Knife.lua'
+	no file '/usr/local/share/lua/5.1/assets/entities/butter_Knife.lua'
+	no file '/usr/local/share/lua/5.1/assets/entities/butter_Knife/init.lua'
+	no file '/usr/share/lua/5.1/assets/entities/butter_Knife.lua'
+	no file '/usr/share/lua/5.1/assets/entities/butter_Knife/init.lua'
+	no file './assets/entities/butter_Knife.so'
+	no file '/usr/local/lib/lua/5.1/assets/entities/butter_Knife.so'
+	no file '/usr/lib64/lua/5.1/assets/entities/butter_Knife.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file './assets.so'
+	no file '/usr/local/lib/lua/5.1/assets.so'
+	no file '/usr/lib64/lua/5.1/assets.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+	[C]: in function 'require'
+	scenes/gameplay.lua:12: in main chunk
+	[C]: in function 'require'
+	scenes/splash.lua:69: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:71: in function 'update'
+	conf.lua:296: in function <conf.lua:150>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-12 03:18:35 ==
+=========================
+
+Error: systems/render.lua:30: attempt to index field 'camera_system' (a nil value)
+stack traceback:
+	systems/render.lua:30: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:82: in function 'update'
+	conf.lua:296: in function <conf.lua:150>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-12 03:19:09 ==
+=========================
+
+Error: main.lua:48: module 'systems.camera_system' not found:
+	no field package.preload['systems.camera_system']
+	no 'systems/camera_system' in LOVE game directories.
+	no file 'systems/camera_system.so' in LOVE paths.
+	no file './systems/camera_system.lua'
+	no file '/usr/share/luajit-2.0.4/systems/camera_system.lua'
+	no file '/usr/local/share/lua/5.1/systems/camera_system.lua'
+	no file '/usr/local/share/lua/5.1/systems/camera_system/init.lua'
+	no file '/usr/share/lua/5.1/systems/camera_system.lua'
+	no file '/usr/share/lua/5.1/systems/camera_system/init.lua'
+	no file './systems/camera_system.so'
+	no file '/usr/local/lib/lua/5.1/systems/camera_system.so'
+	no file '/usr/lib64/lua/5.1/systems/camera_system.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file './systems.so'
+	no file '/usr/local/lib/lua/5.1/systems.so'
+	no file '/usr/lib64/lua/5.1/systems.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+	[C]: in function 'require'
+	main.lua:48: in function 'load'
+	conf.lua:215: in function <conf.lua:150>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-12 03:19:19 ==
+=========================
+
+Error: libs/tiny.lua:405: attempt to index local 'system' (a function value)
+stack traceback:
+	libs/tiny.lua:405: in function 'addSystem'
+	main.lua:48: in function 'load'
+	conf.lua:215: in function <conf.lua:150>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-12 03:27:06 ==
+=========================
+
+Error: scenes/gameplay.lua:127: attempt to index global 'anchor' (a nil value)
+stack traceback:
+	scenes/gameplay.lua:127: in function 'draw'
+	systems/render.lua:31: in function 'draw_overlay'
+	systems/render.lua:75: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:83: in function 'update'
+	conf.lua:296: in function <conf.lua:150>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-12 03:27:19 ==
+=========================
+
+Error: scenes/gameplay.lua:128: bad argument #1 to 'print' (string expected, got nil)
+stack traceback:
+	[C]: in function 'print'
+	scenes/gameplay.lua:128: in function 'draw'
+	systems/render.lua:31: in function 'draw_overlay'
+	systems/render.lua:75: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:83: in function 'update'
+	conf.lua:296: in function <conf.lua:150>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-12 03:40:52 ==
+=========================
+
+Error: main.lua:51: attempt to index global 'self' (a nil value)
+stack traceback:
+	main.lua:51: in function 'load'
+	conf.lua:215: in function <conf.lua:150>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-12 03:43:24 ==
+=========================
+
+Error: libs/cpml/modules/quat.lua:268: attempt to call method 'len' (a nil value)
+stack traceback:
+	libs/cpml/modules/quat.lua:268: in function 'rotate'
+	scenes/gameplay.lua:60: in function 'switch'
+	scenes/splash.lua:70: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:74: in function 'update'
+	conf.lua:296: in function <conf.lua:150>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-12 03:54:42 ==
+=========================
+
+Error: libs/tiny.lua:405: attempt to index local 'system' (a function value)
+stack traceback:
+	libs/tiny.lua:405: in function 'addSystem'
+	main.lua:48: in function 'load'
+	conf.lua:215: in function <conf.lua:150>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-12 11:15:30 ==
+=========================
+
+Error: systems/camera.lua:184: attempt to index a nil value
+stack traceback:
+	systems/camera.lua:184: in function 'send'
+	systems/render.lua:54: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:97: in function 'update'
+	conf.lua:304: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-12 11:28:02 ==
+=========================
+
+Error: scenes/gameplay.lua:50: attempt to index global 'iqm' (a nil value)
+stack traceback:
+	scenes/gameplay.lua:50: in function 'switch'
+	main.lua:68: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-12 11:28:18 ==
+=========================
+
+Error: libs/iqm/init.lua:23: assertion failed!
+stack traceback:
+	[C]: in function 'assert'
+	libs/iqm/init.lua:23: in function 'load_data'
+	libs/iqm/init.lua:94: in function 'load'
+	scenes/gameplay.lua:51: in function 'switch'
+	main.lua:68: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-12 11:28:41 ==
+=========================
+
+Error: scenes/gameplay.lua:51: assertion failed!
+stack traceback:
+	[C]: in function 'assert'
+	scenes/gameplay.lua:51: in function 'switch'
+	main.lua:68: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-12 11:29:07 ==
+=========================
+
+Error: scenes/gameplay.lua:51: assets/models/battery/battery.iqm doesn't exist!
+stack traceback:
+	[C]: in function 'assert'
+	scenes/gameplay.lua:51: in function 'switch'
+	main.lua:68: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-12 11:30:37 ==
+=========================
+
+Error: scenes/gameplay.lua:61: attempt to index global 'world' (a nil value)
+stack traceback:
+	scenes/gameplay.lua:61: in function 'switch'
+	main.lua:68: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-12 11:31:11 ==
+=========================
+
+Error: scenes/gameplay.lua:61: attempt to index field 'level_entities' (a nil value)
+stack traceback:
+	scenes/gameplay.lua:61: in function 'switch'
+	main.lua:68: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-12 11:31:44 ==
+=========================
+
+Error: scenes/gameplay.lua:53: assets/models/terrain.iqm doesn't exist!
+stack traceback:
+	[C]: in function 'assert'
+	scenes/gameplay.lua:53: in function 'switch'
+	main.lua:68: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-12 11:45:40 ==
+=========================
+
+Error: systems/render.lua:107: bad argument #1 to 'ipairs' (table expected, got nil)
+stack traceback:
+	[C]: in function 'ipairs'
+	systems/render.lua:107: in function 'draw'
+	systems/render.lua:64: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:97: in function 'update'
+	conf.lua:304: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-12 11:54:48 ==
+=========================
+
+Error: libs/cpml/modules/mat4.lua:226: assertion failed!
+stack traceback:
+	[C]: in function 'assert'
+	libs/cpml/modules/mat4.lua:226: in function 'perspective'
+	systems/camera.lua:83: in function 'process'
+	libs/tiny.lua:255: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:86: in function 'update'
+	conf.lua:304: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-12 11:57:59 ==
+=========================
+
+Error: scenes/gameplay.lua:38: attempt to index field 'dango' (a nil value)
+stack traceback:
+	scenes/gameplay.lua:38: in function 'switch'
+	main.lua:68: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-12 11:58:07 ==
+=========================
+
+Error: scenes/gameplay.lua:38: attempt to index field 'Dango' (a nil value)
+stack traceback:
+	scenes/gameplay.lua:38: in function 'switch'
+	main.lua:68: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-12 11:59:25 ==
+=========================
+
+Error: libs/cpml/modules/vec3.lua:54: attempt to index local 'v' (a nil value)
+stack traceback:
+	libs/cpml/modules/vec3.lua:54: in function 'isvector'
+	libs/cpml/modules/vec3.lua:100: in function '__mul'
+	scenes/gameplay.lua:49: in function 'switch'
+	main.lua:68: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-12 12:12:16 ==
+=========================
+
+Error: main.lua:4: module 'iqm' not found:
+	no field package.preload['iqm']
+	no 'iqm' in LOVE game directories.
+	no file 'iqm.so' in LOVE paths.
+	no file './iqm.lua'
+	no file '/usr/share/luajit-2.0.4/iqm.lua'
+	no file '/usr/local/share/lua/5.1/iqm.lua'
+	no file '/usr/local/share/lua/5.1/iqm/init.lua'
+	no file '/usr/share/lua/5.1/iqm.lua'
+	no file '/usr/share/lua/5.1/iqm/init.lua'
+	no file './iqm.so'
+	no file '/usr/local/lib/lua/5.1/iqm.so'
+	no file '/usr/lib64/lua/5.1/iqm.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+	[C]: in function 'require'
+	main.lua:4: in main chunk
+	[C]: in function 'require'
+	[string "boot.lua"]:426: in function <[string "boot.lua"]:274>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-12 12:12:43 ==
+=========================
+
+Error: libs/cpml/modules/mat4.lua:294: attempt to call method 'len' (a nil value)
+stack traceback:
+	libs/cpml/modules/mat4.lua:294: in function 'rotate'
+	libs/love3d/init.lua:349: in function 'rotate'
+	libs/love3d/init.lua:657: in function 'rotate'
+	systems/player_controller.lua:23: in function 'process'
+	libs/tiny.lua:255: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:97: in function 'update'
+	conf.lua:304: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-12 12:18:00 ==
+=========================
+
+Error: main.lua:68: module 'scenes.scenes.splash' not found:
+	no field package.preload['scenes.scenes.splash']
+	no 'scenes/scenes/splash' in LOVE game directories.
+	no file 'scenes/scenes/splash.so' in LOVE paths.
+	no file './scenes/scenes/splash.lua'
+	no file '/usr/share/luajit-2.0.4/scenes/scenes/splash.lua'
+	no file '/usr/local/share/lua/5.1/scenes/scenes/splash.lua'
+	no file '/usr/local/share/lua/5.1/scenes/scenes/splash/init.lua'
+	no file '/usr/share/lua/5.1/scenes/scenes/splash.lua'
+	no file '/usr/share/lua/5.1/scenes/scenes/splash/init.lua'
+	no file './scenes/scenes/splash.so'
+	no file '/usr/local/lib/lua/5.1/scenes/scenes/splash.so'
+	no file '/usr/lib64/lua/5.1/scenes/scenes/splash.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file './scenes.so'
+	no file '/usr/local/lib/lua/5.1/scenes.so'
+	no file '/usr/lib64/lua/5.1/scenes.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+	[C]: in function 'require'
+	main.lua:68: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-12 12:18:05 ==
+=========================
+
+Error: main.lua:68: module 'scenes.scenes.splash' not found:
+	no field package.preload['scenes.scenes.splash']
+	no 'scenes/scenes/splash' in LOVE game directories.
+	no file 'scenes/scenes/splash.so' in LOVE paths.
+	no file './scenes/scenes/splash.lua'
+	no file '/usr/share/luajit-2.0.4/scenes/scenes/splash.lua'
+	no file '/usr/local/share/lua/5.1/scenes/scenes/splash.lua'
+	no file '/usr/local/share/lua/5.1/scenes/scenes/splash/init.lua'
+	no file '/usr/share/lua/5.1/scenes/scenes/splash.lua'
+	no file '/usr/share/lua/5.1/scenes/scenes/splash/init.lua'
+	no file './scenes/scenes/splash.so'
+	no file '/usr/local/lib/lua/5.1/scenes/scenes/splash.so'
+	no file '/usr/lib64/lua/5.1/scenes/scenes/splash.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file './scenes.so'
+	no file '/usr/local/lib/lua/5.1/scenes.so'
+	no file '/usr/lib64/lua/5.1/scenes.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+	[C]: in function 'require'
+	main.lua:68: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	[builtin#21]: at 0x7fc04d8aa9f0
+	[C]: in function 'require'
+	main.lua:68: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-12 12:46:10 ==
+=========================
+
+Error: systems/render.lua:78: assertion failed!
+stack traceback:
+	[C]: in function 'assert'
+	systems/render.lua:78: in function 'draw'
+	systems/render.lua:55: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:97: in function 'update'
+	conf.lua:304: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-12 12:46:30 ==
+=========================
+
+Error: systems/render.lua:81: assertion failed!
+stack traceback:
+	[C]: in function 'assert'
+	systems/render.lua:81: in function 'draw'
+	systems/render.lua:55: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:97: in function 'update'
+	conf.lua:304: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-12 13:07:42 ==
+=========================
+
+Error: libs/cpml/modules/vec3.lua:54: attempt to index local 'v' (a number value)
+stack traceback:
+	libs/cpml/modules/vec3.lua:54: in function 'isvector'
+	systems/acceleration.lua:15: in function 'process'
+	libs/tiny.lua:255: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:93: in function 'update'
+	conf.lua:304: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-12 13:15:58 ==
+=========================
+
+Error: systems/render.lua:50: Value size of 16 does not match variable size of 4.
+stack traceback:
+	[C]: in function 'send'
+	systems/render.lua:50: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:97: in function 'update'
+	conf.lua:304: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-12 13:21:05 ==
+=========================
+
+Error: systems/render.lua:95: attempt to index a nil value
+stack traceback:
+	systems/render.lua:95: in function 'draw'
+	systems/render.lua:63: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:97: in function 'update'
+	conf.lua:304: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-12 13:22:09 ==
+=========================
+
+Error: systems/render.lua:95: attempt to index a nil value
+stack traceback:
+	systems/render.lua:95: in function 'draw'
+	systems/render.lua:63: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:97: in function 'update'
+	conf.lua:304: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-12 15:00:42 ==
+=========================
+
+Error: systems/render.lua:95: attempt to index a nil value
+stack traceback:
+	systems/render.lua:95: in function 'draw'
+	systems/render.lua:63: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:97: in function 'update'
+	conf.lua:304: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-12 15:03:03 ==
+=========================
+
+Error: systems/render.lua:94: attempt to index a nil value
+stack traceback:
+	systems/render.lua:94: in function 'draw'
+	systems/render.lua:63: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:97: in function 'update'
+	conf.lua:304: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-12 15:05:17 ==
+=========================
+
+Error: systems/render.lua:88: attempt to index local 'm' (a nil value)
+stack traceback:
+	systems/render.lua:88: in function 'draw'
+	systems/render.lua:63: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:97: in function 'update'
+	conf.lua:304: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-12 15:06:41 ==
+=========================
+
+Error: systems/render.lua:88: attempt to index local 'm' (a nil value)
+stack traceback:
+	systems/render.lua:88: in function 'draw'
+	systems/render.lua:63: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:97: in function 'update'
+	conf.lua:304: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-12 15:06:49 ==
+=========================
+
+Error: systems/render.lua:88: attempt to index local 'm' (a nil value)
+stack traceback:
+	systems/render.lua:88: in function 'draw'
+	systems/render.lua:63: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:97: in function 'update'
+	conf.lua:304: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-12 15:07:29 ==
+=========================
+
+Error: systems/render.lua:88: attempt to index local 'm' (a nil value)
+stack traceback:
+	systems/render.lua:88: in function 'draw'
+	systems/render.lua:63: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:97: in function 'update'
+	conf.lua:304: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-12 17:44:53 ==
+=========================
+
+Error: Cannot compile pixel shader code:
+Line 86: error: declaration of "color" conflicts with previous declaration at 0(81)
+Line 81: error: in and out can't be used on local variable "color"
+Line 86: error: incompatible types in initialization
+Line 86: error: invalid initialization
+Line 90: error: too much data in type constructor
+stack traceback:
+	[C]: in function 'newShader'
+	systems/render.lua:11: in main chunk
+	[C]: in function 'require'
+	main.lua:60: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-12 17:45:41 ==
+=========================
+
+Error: Cannot compile pixel shader code:
+Line 83: error: undefined variable "light_direction"
+Line 83: error: undefined variable "view_direction"
+Line 83: error: undefined variable "nor"
+Line 84: error: undefined variable "light_direction"
+Line 84: error: undefined variable "view_direction"
+Line 84: error: undefined variable "nor"
+stack traceback:
+	[C]: in function 'newShader'
+	systems/render.lua:11: in main chunk
+	[C]: in function 'require'
+	main.lua:60: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	[builtin#21]: at 0x7f3df43b19f0
+	[C]: in function 'newShader'
+	systems/render.lua:11: in main chunk
+	[C]: in function 'require'
+	main.lua:60: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-12 17:46:02 ==
+=========================
+
+Error: Cannot compile pixel shader code:
+Line 83: error: undefined variable "nor"
+stack traceback:
+	[C]: in function 'newShader'
+	systems/render.lua:11: in main chunk
+	[C]: in function 'require'
+	main.lua:60: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-12 17:46:13 ==
+=========================
+
+Error: Cannot link shader program object:
+Fragment info
+-------------
+0(101) : error C7011: implicit cast from "vec4" to "vec3"
+
+stack traceback:
+	[C]: in function 'newShader'
+	systems/render.lua:11: in main chunk
+	[C]: in function 'require'
+	main.lua:60: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	[builtin#21]: at 0x7f640c8579f0
+	[C]: in function 'newShader'
+	systems/render.lua:11: in main chunk
+	[C]: in function 'require'
+	main.lua:60: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-12 17:49:04 ==
+=========================
+
+Error: systems/render.lua:50: Variable 'force_color' does not exist.
+A common error is to define but not use the variable.
+stack traceback:
+	[C]: in function 'sendInt'
+	systems/render.lua:50: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:97: in function 'update'
+	conf.lua:304: in function <conf.lua:158>
+	[builtin#21]: at 0x7f640c8579f0
+	[C]: in function 'newShader'
+	systems/render.lua:11: in main chunk
+	[C]: in function 'require'
+	main.lua:60: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	[builtin#21]: at 0x7f640c8579f0
+	[C]: in function 'newShader'
+	systems/render.lua:11: in main chunk
+	[C]: in function 'require'
+	main.lua:60: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-12 18:22:15 ==
+=========================
+
+Error: systems/render.lua:63: attempt to index global 'shder' (a nil value)
+stack traceback:
+	systems/render.lua:63: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:97: in function 'update'
+	conf.lua:304: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-12 18:22:20 ==
+=========================
+
+Error: systems/render.lua:63: attempt to index field 'active_camera' (a nil value)
+stack traceback:
+	systems/render.lua:63: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:97: in function 'update'
+	conf.lua:304: in function <conf.lua:158>
+	[C]: in function '__index'
+	systems/render.lua:63: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:97: in function 'update'
+	conf.lua:304: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-13 08:16:29 ==
+=========================
+
+Error: src/map.lua:40: attempt to call global 'get_aabb' (a nil value)
+stack traceback:
+	src/map.lua:40: in function 'load'
+	scenes/gameplay.lua:54: in function 'switch'
+	main.lua:66: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-13 08:17:49 ==
+=========================
+
+Error: libs/tiny.lua:440: attempt to index local 'system' (a nil value)
+stack traceback:
+	libs/tiny.lua:440: in function 'removeSystem'
+	scenes/gameplay.lua:126: in function '__NULL__'
+	libs/scene.lua:45: in function 'switch'
+	main.lua:66: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	[C]: in function 'get_aabb'
+	src/map.lua:40: in function 'load'
+	scenes/gameplay.lua:54: in function 'switch'
+	main.lua:66: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-13 08:18:07 ==
+=========================
+
+Error: libs/tiny.lua:440: attempt to index local 'system' (a nil value)
+stack traceback:
+	libs/tiny.lua:440: in function 'removeSystem'
+	scenes/gameplay.lua:126: in function '__NULL__'
+	libs/scene.lua:45: in function 'switch'
+	main.lua:66: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	[C]: in function '__index'
+	libs/tiny.lua:440: in function 'removeSystem'
+	scenes/gameplay.lua:126: in function '__NULL__'
+	libs/scene.lua:45: in function 'switch'
+	main.lua:66: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	[C]: in function 'get_aabb'
+	src/map.lua:40: in function 'load'
+	scenes/gameplay.lua:54: in function 'switch'
+	main.lua:66: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-13 08:18:25 ==
+=========================
+
+Error: src/map.lua:41: attempt to call global 'get_aabb' (a nil value)
+stack traceback:
+	src/map.lua:41: in function 'load'
+	scenes/gameplay.lua:14: in function 'switch'
+	main.lua:66: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-13 08:18:35 ==
+=========================
+
+Error: libs/tiny.lua:440: attempt to index local 'system' (a nil value)
+stack traceback:
+	libs/tiny.lua:440: in function 'removeSystem'
+	scenes/gameplay.lua:86: in function '__NULL__'
+	libs/scene.lua:45: in function 'switch'
+	main.lua:66: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	[C]: in function 'get_aabb'
+	src/map.lua:41: in function 'load'
+	scenes/gameplay.lua:14: in function 'switch'
+	main.lua:66: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-13 10:15:53 ==
+=========================
+
+Error: main.lua:80: attempt to call method 'resize' (a nil value)
+stack traceback:
+	main.lua:80: in function <main.lua:76>
+	libs/scene.lua:117: in function <libs/scene.lua:112>
+	conf.lua:265: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-13 10:17:28 ==
+=========================
+
+Error: main.lua:83: attempt to index global 'world' (a nil value)
+stack traceback:
+	main.lua:83: in function <main.lua:76>
+	libs/scene.lua:117: in function <libs/scene.lua:112>
+	conf.lua:265: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-13 10:17:50 ==
+=========================
+
+Error: systems/render.lua:19: attempt to call field 'getSystemLimit' (a nil value)
+stack traceback:
+	systems/render.lua:19: in function 'resize'
+	main.lua:83: in function <main.lua:76>
+	libs/scene.lua:117: in function <libs/scene.lua:112>
+	conf.lua:265: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-13 10:28:01 ==
+=========================
+
+Error: main.lua:92: attempt to index global 'world' (a nil value)
+stack traceback:
+	main.lua:92: in function 'update'
+	conf.lua:304: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-13 10:28:23 ==
+=========================
+
+Error: libs/tiny.lua:762: attempt to compare nil with number
+stack traceback:
+	libs/tiny.lua:762: in function 'setSystemIndex'
+	main.lua:96: in function 'update'
+	conf.lua:304: in function <conf.lua:158>
+	[C]: in function '__index'
+	main.lua:92: in function 'update'
+	conf.lua:304: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-13 10:34:43 ==
+=========================
+
+Error: libs/tiny.lua:752: attempt to index local 'system' (a nil value)
+stack traceback:
+	libs/tiny.lua:752: in function 'setSystemIndex'
+	scenes/gameplay.lua:29: in function 'switch'
+	main.lua:68: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	[C]: in function '__le'
+	libs/tiny.lua:762: in function 'setSystemIndex'
+	main.lua:96: in function 'update'
+	conf.lua:304: in function <conf.lua:158>
+	[C]: in function '__index'
+	main.lua:92: in function 'update'
+	conf.lua:304: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-13 10:34:54 ==
+=========================
+
+Error: libs/tiny.lua:752: attempt to index local 'system' (a nil value)
+stack traceback:
+	libs/tiny.lua:752: in function 'setSystemIndex'
+	scenes/gameplay.lua:29: in function 'switch'
+	main.lua:68: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	[C]: in function '__index'
+	libs/tiny.lua:752: in function 'setSystemIndex'
+	scenes/gameplay.lua:29: in function 'switch'
+	main.lua:68: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	[C]: in function '__le'
+	libs/tiny.lua:762: in function 'setSystemIndex'
+	main.lua:96: in function 'update'
+	conf.lua:304: in function <conf.lua:158>
+	[C]: in function '__index'
+	main.lua:92: in function 'update'
+	conf.lua:304: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-13 10:35:11 ==
+=========================
+
+Error: libs/tiny.lua:762: attempt to compare nil with number
+stack traceback:
+	libs/tiny.lua:762: in function 'setSystemIndex'
+	scenes/gameplay.lua:30: in function 'switch'
+	main.lua:68: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	[C]: in function '__index'
+	libs/tiny.lua:752: in function 'setSystemIndex'
+	scenes/gameplay.lua:29: in function 'switch'
+	main.lua:68: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	...
+	conf.lua:223: in function <conf.lua:158>
+	[C]: in function '__le'
+	libs/tiny.lua:762: in function 'setSystemIndex'
+	main.lua:96: in function 'update'
+	conf.lua:304: in function <conf.lua:158>
+	[C]: in function '__index'
+	main.lua:92: in function 'update'
+	conf.lua:304: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-13 10:47:28 ==
+=========================
+
+Error: systems/render.lua:12: bad argument #1 to 'newShader' (missing 'position' or 'effect' function?)
+stack traceback:
+	[C]: in function 'newShader'
+	systems/render.lua:12: in main chunk
+	[C]: in function 'require'
+	main.lua:61: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-13 10:47:56 ==
+=========================
+
+Error: libs/love3d/init.lua:396: Variable 'u_model' does not exist.
+A common error is to define but not use the variable.
+stack traceback:
+	[C]: in function 'send'
+	libs/love3d/init.lua:396: in function 'update_matrix'
+	libs/love3d/init.lua:624: in function 'f'
+	libs/love3d/init.lua:46: in function 'setShader'
+	systems/render.lua:99: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:112: in function 'update'
+	conf.lua:304: in function <conf.lua:158>
+	[builtin#21]: at 0x7fee7a36f9f0
+	[C]: in function 'newShader'
+	systems/render.lua:12: in main chunk
+	[C]: in function 'require'
+	main.lua:61: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-13 10:48:00 ==
+=========================
+
+Error: libs/love3d/init.lua:396: Variable 'u_model' does not exist.
+A common error is to define but not use the variable.
+stack traceback:
+	[C]: in function 'send'
+	libs/love3d/init.lua:396: in function 'update_matrix'
+	libs/love3d/init.lua:624: in function 'f'
+	libs/love3d/init.lua:46: in function 'setShader'
+	systems/render.lua:99: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:112: in function 'update'
+	conf.lua:304: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-13 11:09:27 ==
+=========================
+
+Error: systems/camera.lua:198: Value size of 16 does not match variable size of 4.
+stack traceback:
+	[C]: in function 'send'
+	systems/camera.lua:198: in function 'send'
+	systems/render.lua:122: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:112: in function 'update'
+	conf.lua:304: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-13 11:12:17 ==
+=========================
+
+Error: systems/camera.lua:191: bad argument #2 to 'send' (number, boolean, table, image, or canvas expected)
+stack traceback:
+	[C]: in function 'send'
+	systems/camera.lua:191: in function 'send'
+	systems/render.lua:134: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:112: in function 'update'
+	conf.lua:304: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-13 11:12:43 ==
+=========================
+
+Error: systems/camera.lua:191: bad argument #2 to 'send' (number, boolean, table, image, or canvas expected)
+stack traceback:
+	[C]: in function 'send'
+	systems/camera.lua:191: in function 'send'
+	systems/render.lua:134: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:112: in function 'update'
+	conf.lua:304: in function <conf.lua:158>
+	[builtin#21]: at 0x7f9579d799f0
+	[C]: in function 'send'
+	systems/camera.lua:191: in function 'send'
+	systems/render.lua:134: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:112: in function 'update'
+	conf.lua:304: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-13 11:14:00 ==
+=========================
+
+Error: systems/camera.lua:191: bad argument #2 to 'send' (number, boolean, table, image, or canvas expected)
+stack traceback:
+	[C]: in function 'send'
+	systems/camera.lua:191: in function 'send'
+	systems/render.lua:134: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:112: in function 'update'
+	conf.lua:304: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-13 11:14:12 ==
+=========================
+
+Error: systems/camera.lua:194: bad argument #2 to 'send' (number, boolean, table, image, or canvas expected)
+stack traceback:
+	[C]: in function 'send'
+	systems/camera.lua:194: in function 'send'
+	systems/render.lua:134: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:112: in function 'update'
+	conf.lua:304: in function <conf.lua:158>
+	[builtin#21]: at 0x7f22bb7d79f0
+	[C]: in function 'send'
+	systems/camera.lua:191: in function 'send'
+	systems/render.lua:134: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:112: in function 'update'
+	conf.lua:304: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-13 11:17:57 ==
+=========================
+
+Error: systems/render.lua:84: attempt to index global 'shdaer' (a nil value)
+stack traceback:
+	systems/render.lua:84: in function 'send_light'
+	systems/render.lua:122: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:112: in function 'update'
+	conf.lua:304: in function <conf.lua:158>
+	[builtin#21]: at 0x7f22bb7d79f0
+	[C]: in function 'send'
+	systems/camera.lua:194: in function 'send'
+	systems/render.lua:134: in function 'update'
+	...
+	conf.lua:304: in function <conf.lua:158>
+	[builtin#21]: at 0x7f22bb7d79f0
+	[C]: in function 'send'
+	systems/camera.lua:191: in function 'send'
+	systems/render.lua:134: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:112: in function 'update'
+	conf.lua:304: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-13 11:25:13 ==
+=========================
+
+Error: Cannot compile vertex shader code:
+Line 3: error: non constant expression for array size
+Line 3: error: incompatible types in initialization
+Line 4: error: non constant expression for array size
+Line 4: error: incompatible types in initialization
+Line 5: error: non constant expression for array size
+Line 5: error: incompatible types in initialization
+stack traceback:
+	[C]: in function 'newShader'
+	systems/render.lua:12: in main chunk
+	[C]: in function 'require'
+	main.lua:61: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	[C]: in function '__index'
+	systems/render.lua:84: in function 'send_light'
+	systems/render.lua:122: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	...
+	conf.lua:304: in function <conf.lua:158>
+	[builtin#21]: at 0x7f22bb7d79f0
+	[C]: in function 'send'
+	systems/camera.lua:191: in function 'send'
+	systems/render.lua:134: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:112: in function 'update'
+	conf.lua:304: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-13 11:25:25 ==
+=========================
+
+Error: Cannot compile vertex shader code:
+Line 5: error: incompatible types in initialization
+Line 6: error: incompatible types in initialization
+Line 7: error: incompatible types in initialization
+stack traceback:
+	[C]: in function 'newShader'
+	systems/render.lua:12: in main chunk
+	[C]: in function 'require'
+	main.lua:61: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	[builtin#21]: at 0x7f22bb7d79f0
+	[C]: in function 'newShader'
+	systems/render.lua:12: in main chunk
+	[C]: in function 'require'
+	...
+	conf.lua:304: in function <conf.lua:158>
+	[builtin#21]: at 0x7f22bb7d79f0
+	[C]: in function 'send'
+	systems/camera.lua:191: in function 'send'
+	systems/render.lua:134: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:112: in function 'update'
+	conf.lua:304: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-13 11:25:38 ==
+=========================
+
+Error: Cannot compile pixel shader code:
+Line 95: error: invalid operands to "*"
+stack traceback:
+	[C]: in function 'newShader'
+	systems/render.lua:12: in main chunk
+	[C]: in function 'require'
+	main.lua:61: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	[builtin#21]: at 0x7f22bb7d79f0
+	[C]: in function 'newShader'
+	systems/render.lua:12: in main chunk
+	[C]: in function 'require'
+	...
+	conf.lua:304: in function <conf.lua:158>
+	[builtin#21]: at 0x7f22bb7d79f0
+	[C]: in function 'send'
+	systems/camera.lua:191: in function 'send'
+	systems/render.lua:134: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:112: in function 'update'
+	conf.lua:304: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-13 11:25:50 ==
+=========================
+
+Error: Cannot compile pixel shader code:
+Line 95: error: invalid operands to "*"
+stack traceback:
+	[C]: in function 'newShader'
+	systems/render.lua:12: in main chunk
+	[C]: in function 'require'
+	main.lua:61: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-13 11:32:40 ==
+=========================
+
+Error: systems/render.lua:128: attempt to call method 'send_lights' (a nil value)
+stack traceback:
+	systems/render.lua:128: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:112: in function 'update'
+	conf.lua:304: in function <conf.lua:158>
+	[builtin#21]: at 0x7f4603e3c9f0
+	[C]: in function 'newShader'
+	systems/render.lua:12: in main chunk
+	[C]: in function 'require'
+	main.lua:61: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-13 11:33:34 ==
+=========================
+
+Error: systems/render.lua:104: bad argument #1 to 'unpack' (table expected, got nil)
+stack traceback:
+	[C]: in function 'unpack'
+	systems/render.lua:104: in function 'send_lights'
+	systems/render.lua:128: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:112: in function 'update'
+	conf.lua:304: in function <conf.lua:158>
+	[C]: in function 'send_lights'
+	systems/render.lua:128: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:112: in function 'update'
+	conf.lua:304: in function <conf.lua:158>
+	[builtin#21]: at 0x7f4603e3c9f0
+	[C]: in function 'newShader'
+	systems/render.lua:12: in main chunk
+	[C]: in function 'require'
+	main.lua:61: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-13 11:42:59 ==
+=========================
+
+Error: systems/render.lua:104: Invalid matrix size: 1x1 (only 2x2, 3x3 and 4x4 matrices are supported).
+stack traceback:
+	[C]: in function 'send'
+	systems/render.lua:104: in function 'send_lights'
+	systems/render.lua:128: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:112: in function 'update'
+	conf.lua:304: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-13 12:35:56 ==
+=========================
+
+Error: libs/love3d/init.lua:280: Could not open file assets/shaders/shadow.glsl. Does not exist.
+stack traceback:
+	[C]: in function 'newShader'
+	libs/love3d/init.lua:280: in function 'new_shader_raw'
+	systems/render.lua:15: in main chunk
+	[C]: in function 'require'
+	main.lua:61: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-13 12:50:17 ==
+=========================
+
+Error: systems/render.lua:92: Variable 'u_shadow_vp' does not exist.
+A common error is to define but not use the variable.
+stack traceback:
+	[C]: in function 'send'
+	systems/render.lua:92: in function 'send_lights'
+	systems/render.lua:181: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:112: in function 'update'
+	conf.lua:304: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-13 12:50:57 ==
+=========================
+
+Error: systems/render.lua:92: Variable 'u_shadow_vp' does not exist.
+A common error is to define but not use the variable.
+stack traceback:
+	[C]: in function 'send'
+	systems/render.lua:92: in function 'send_lights'
+	systems/render.lua:181: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:112: in function 'update'
+	conf.lua:304: in function <conf.lua:158>
+	[builtin#21]: at 0x7f3b5014c9f0
+	[C]: in function 'send'
+	systems/render.lua:92: in function 'send_lights'
+	systems/render.lua:181: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:112: in function 'update'
+	conf.lua:304: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-13 12:56:09 ==
+=========================
+
+Error: Cannot compile vertex shader code:
+Line 31: error: undefined variable "u_shadow_vp"
+stack traceback:
+	[C]: in function 'newShader'
+	systems/render.lua:13: in main chunk
+	[C]: in function 'require'
+	main.lua:61: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-13 12:56:28 ==
+=========================
+
+Error: Cannot compile vertex shader code:
+Line 35: error: implicit cast from "vec4" to "vec3"
+stack traceback:
+	[C]: in function 'newShader'
+	systems/render.lua:13: in main chunk
+	[C]: in function 'require'
+	main.lua:61: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	[builtin#21]: at 0x7ff275b379f0
+	[C]: in function 'newShader'
+	systems/render.lua:13: in main chunk
+	[C]: in function 'require'
+	main.lua:61: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-13 13:00:16 ==
+=========================
+
+Error: Cannot compile pixel shader code:
+Line 104: error: undefined variable "shadow_coords"
+Line 105: error: undefined variable "shadow_coords"
+Line 105: error: undefined variable "shadow_coords"
+stack traceback:
+	[C]: in function 'newShader'
+	systems/render.lua:13: in main chunk
+	[C]: in function 'require'
+	main.lua:61: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	[builtin#21]: at 0x7ff275b379f0
+	[C]: in function 'newShader'
+	systems/render.lua:13: in main chunk
+	[C]: in function 'require'
+	main.lua:61: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	[builtin#21]: at 0x7ff275b379f0
+	[C]: in function 'newShader'
+	systems/render.lua:13: in main chunk
+	[C]: in function 'require'
+	main.lua:61: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-13 13:12:28 ==
+=========================
+
+Error: Cannot compile pixel shader code:
+Line 106: error: unable to find compatible overloaded function "texture2D(sampler2DShadow, vec2)"
+stack traceback:
+	[C]: in function 'newShader'
+	systems/render.lua:13: in main chunk
+	[C]: in function 'require'
+	main.lua:61: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	[builtin#21]: at 0x7ff275b379f0
+	[C]: in function 'newShader'
+	systems/render.lua:13: in main chunk
+	[C]: in function 'require'
+	...
+	main.lua:61: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	[builtin#21]: at 0x7ff275b379f0
+	[C]: in function 'newShader'
+	systems/render.lua:13: in main chunk
+	[C]: in function 'require'
+	main.lua:61: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-13 13:29:19 ==
+=========================
+
+Error: systems/render.lua:92: Variable 'u_shadow_vp' does not exist.
+A common error is to define but not use the variable.
+stack traceback:
+	[C]: in function 'send'
+	systems/render.lua:92: in function 'send_lights'
+	systems/render.lua:181: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:112: in function 'update'
+	conf.lua:304: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-13 13:55:46 ==
+=========================
+
+Error: Cannot compile pixel shader code:
+Line 110: error: undefined variable "shadow_coords"
+Line 111: error: undefined variable "shadow_coords"
+Line 111: error: undefined variable "shadow_coords"
+stack traceback:
+	[C]: in function 'newShader'
+	systems/render.lua:13: in main chunk
+	[C]: in function 'require'
+	main.lua:61: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-13 14:07:43 ==
+=========================
+
+Error: Syntax error: scenes/gameplay.lua:42: '}' expected (to close '{' at line 40) near 'process'
+
+stack traceback:
+	[C]: at 0x7f84ae6c0520
+	[C]: in function 'require'
+	main.lua:65: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	[builtin#21]: at 0x7f84acd6f9f0
+	[C]: in function 'newShader'
+	systems/render.lua:13: in main chunk
+	[C]: in function 'require'
+	main.lua:61: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-13 14:12:59 ==
+=========================
+
+Error: Cannot compile pixel shader code:
+Line 108: error: undefined variable "shadow_coords"
+stack traceback:
+	[C]: in function 'newShader'
+	systems/render.lua:13: in main chunk
+	[C]: in function 'require'
+	main.lua:61: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-13 14:26:17 ==
+=========================
+
+Error: Cannot compile pixel shader code:
+Line 125: error: syntax error, unexpected identifier, expecting '(' at token "shadow_coords"
+stack traceback:
+	[C]: in function 'newShader'
+	systems/render.lua:13: in main chunk
+	[C]: in function 'require'
+	main.lua:61: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	[builtin#21]: at 0x7f28d92449f0
+	[C]: in function 'newShader'
+	systems/render.lua:13: in main chunk
+	[C]: in function 'require'
+	main.lua:61: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-13 14:26:31 ==
+=========================
+
+Error: Cannot compile pixel shader code:
+Line 106: error: undefined variable "sstep"
+stack traceback:
+	[C]: in function 'newShader'
+	systems/render.lua:13: in main chunk
+	[C]: in function 'require'
+	main.lua:61: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	[builtin#21]: at 0x7f28d92449f0
+	[C]: in function 'newShader'
+	systems/render.lua:13: in main chunk
+	[C]: in function 'require'
+	main.lua:61: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	[builtin#21]: at 0x7f28d92449f0
+	[C]: in function 'newShader'
+	systems/render.lua:13: in main chunk
+	[C]: in function 'require'
+	main.lua:61: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-13 14:45:12 ==
+=========================
+
+Error: systems/player_controller.lua:104: attempt to index field 'hit' (a nil value)
+stack traceback:
+	systems/player_controller.lua:104: in function 'fix_camera'
+	systems/player_controller.lua:87: in function 'process'
+	libs/tiny.lua:255: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:108: in function 'update'
+	conf.lua:304: in function <conf.lua:158>
+	[builtin#21]: at 0x7f28d92449f0
+	[C]: in function 'newShader'
+	systems/render.lua:13: in main chunk
+	...
+	main.lua:61: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	[builtin#21]: at 0x7f28d92449f0
+	[C]: in function 'newShader'
+	systems/render.lua:13: in main chunk
+	[C]: in function 'require'
+	main.lua:61: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-13 14:46:18 ==
+=========================
+
+Error: systems/player_controller.lua:105: attempt to index field 'hit' (a nil value)
+stack traceback:
+	systems/player_controller.lua:105: in function 'fix_camera'
+	systems/player_controller.lua:87: in function 'process'
+	libs/tiny.lua:255: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:108: in function 'update'
+	conf.lua:304: in function <conf.lua:158>
+	[C]: in function '__index'
+	systems/player_controller.lua:104: in function 'fix_camera'
+	systems/player_controller.lua:87: in function 'process'
+	...
+	main.lua:61: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	[builtin#21]: at 0x7f28d92449f0
+	[C]: in function 'newShader'
+	systems/render.lua:13: in main chunk
+	[C]: in function 'require'
+	main.lua:61: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-13 15:04:07 ==
+=========================
+
+Error: scenes/gameplay.lua:106: bad argument #1 to 'min' (number expected, got table)
+stack traceback:
+	[C]: in function 'min'
+	scenes/gameplay.lua:106: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:101: in function 'update'
+	conf.lua:304: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-13 15:04:51 ==
+=========================
+
+Error: libs/cpml/modules/mat4.lua:235: attempt to index local 's' (a number value)
+stack traceback:
+	libs/cpml/modules/mat4.lua:235: in function 'scale'
+	systems/render.lua:242: in function 'draw'
+	systems/render.lua:168: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:112: in function 'update'
+	conf.lua:304: in function <conf.lua:158>
+	[builtin#21]: at 0x7fd582d1b9f0
+	[C]: in function 'min'
+	scenes/gameplay.lua:106: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:101: in function 'update'
+	conf.lua:304: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-13 15:04:59 ==
+=========================
+
+Error: libs/cpml/modules/mat4.lua:235: attempt to index local 's' (a number value)
+stack traceback:
+	libs/cpml/modules/mat4.lua:235: in function 'scale'
+	systems/render.lua:242: in function 'draw'
+	systems/render.lua:168: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:112: in function 'update'
+	conf.lua:304: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-13 15:38:32 ==
+=========================
+
+Error: systems/render.lua:184: attempt to index global 'entity' (a nil value)
+stack traceback:
+	systems/render.lua:184: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:112: in function 'update'
+	conf.lua:304: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-13 15:47:48 ==
+=========================
+
+Error: Cannot compile vertex shader code:
+Line 24: error: undefined variable "f_normal"
+stack traceback:
+	[C]: in function 'newShader'
+	systems/render.lua:15: in main chunk
+	[C]: in function 'require'
+	main.lua:61: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-13 15:49:43 ==
+=========================
+
+Error: systems/render.lua:192: Variable 'u_light_direction' does not exist.
+A common error is to define but not use the variable.
+stack traceback:
+	[C]: in function 'send'
+	systems/render.lua:192: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:112: in function 'update'
+	conf.lua:304: in function <conf.lua:158>
+	[builtin#21]: at 0x7faa463089f0
+	[C]: in function 'newShader'
+	systems/render.lua:15: in main chunk
+	[C]: in function 'require'
+	main.lua:61: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-13 15:51:17 ==
+=========================
+
+Error: systems/render.lua:192: Value size of 1 does not match variable size of 3.
+stack traceback:
+	[C]: in function 'send'
+	systems/render.lua:192: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:112: in function 'update'
+	conf.lua:304: in function <conf.lua:158>
+	[builtin#21]: at 0x7faa463089f0
+	[C]: in function 'send'
+	systems/render.lua:192: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:112: in function 'update'
+	conf.lua:304: in function <conf.lua:158>
+	[builtin#21]: at 0x7faa463089f0
+	[C]: in function 'newShader'
+	systems/render.lua:15: in main chunk
+	[C]: in function 'require'
+	main.lua:61: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-13 15:51:55 ==
+=========================
+
+Error: systems/render.lua:192: Value size of 1 does not match variable size of 3.
+stack traceback:
+	[C]: in function 'send'
+	systems/render.lua:192: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:112: in function 'update'
+	conf.lua:304: in function <conf.lua:158>
+	[builtin#21]: at 0x7faa463089f0
+	[C]: in function 'send'
+	systems/render.lua:192: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	...
+	main.lua:112: in function 'update'
+	conf.lua:304: in function <conf.lua:158>
+	[builtin#21]: at 0x7faa463089f0
+	[C]: in function 'newShader'
+	systems/render.lua:15: in main chunk
+	[C]: in function 'require'
+	main.lua:61: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-13 15:52:10 ==
+=========================
+
+Error: systems/render.lua:192: Value size of 1 does not match variable size of 3.
+stack traceback:
+	[C]: in function 'send'
+	systems/render.lua:192: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:112: in function 'update'
+	conf.lua:304: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-13 20:09:38 ==
+=========================
+
+Error: src/map.lua:20: assets/models/ramp.iqm doesn't exist!
+stack traceback:
+	[C]: in function 'assert'
+	src/map.lua:20: in function 'load'
+	scenes/gameplay.lua:34: in function 'switch'
+	main.lua:65: in function 'load'
+	conf.lua:223: in function <conf.lua:158>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-14 06:00:11 ==
+=========================
+
+Error: src/map.lua:20: assets/models/collision.iqm doesn't exist!
+stack traceback:
+	[C]: in function 'assert'
+	src/map.lua:20: in function 'load'
+	scenes/gameplay.lua:34: in function 'switch'
+	main.lua:65: in function 'load'
+	conf.lua:224: in function <conf.lua:159>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-14 06:18:27 ==
+=========================
+
+Error: systems/player_controller.lua:85: attempt to perform arithmetic on field 'unit_z' (a nil value)
+stack traceback:
+	systems/player_controller.lua:85: in function 'process'
+	libs/tiny.lua:255: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:108: in function 'update'
+	conf.lua:313: in function <conf.lua:159>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-14 06:18:32 ==
+=========================
+
+Error: systems/player_controller.lua:85: attempt to compare number with table
+stack traceback:
+	systems/player_controller.lua:85: in function 'process'
+	libs/tiny.lua:255: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:108: in function 'update'
+	conf.lua:313: in function <conf.lua:159>
+	[C]: in function '__mul'
+	systems/player_controller.lua:85: in function 'process'
+	libs/tiny.lua:255: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:108: in function 'update'
+	conf.lua:313: in function <conf.lua:159>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-14 06:20:31 ==
+=========================
+
+Error: systems/player_controller.lua:87: attempt to index global 'ent0ity' (a nil value)
+stack traceback:
+	systems/player_controller.lua:87: in function 'process'
+	libs/tiny.lua:255: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:108: in function 'update'
+	conf.lua:313: in function <conf.lua:159>
+	[C]: in function '__lt'
+	systems/player_controller.lua:85: in function 'process'
+	libs/tiny.lua:255: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:108: in function 'update'
+	conf.lua:313: in function <conf.lua:159>
+	[C]: in function '__mul'
+	systems/player_controller.lua:85: in function 'process'
+	libs/tiny.lua:255: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:108: in function 'update'
+	conf.lua:313: in function <conf.lua:159>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-14 06:31:30 ==
+=========================
+
+Error: scenes/gameplay.lua:141: attempt to index global 'ob' (a nil value)
+stack traceback:
+	scenes/gameplay.lua:141: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:101: in function 'update'
+	conf.lua:313: in function <conf.lua:159>
+	[C]: in function '__index'
+	systems/player_controller.lua:87: in function 'process'
+	libs/tiny.lua:255: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:108: in function 'update'
+	...
+	main.lua:108: in function 'update'
+	conf.lua:313: in function <conf.lua:159>
+	[C]: in function '__mul'
+	systems/player_controller.lua:85: in function 'process'
+	libs/tiny.lua:255: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:108: in function 'update'
+	conf.lua:313: in function <conf.lua:159>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-14 06:49:10 ==
+=========================
+
+Error: systems/player_controller.lua:84: attempt to index global 'camera_pos' (a nil value)
+stack traceback:
+	systems/player_controller.lua:84: in function 'fix_camera'
+	systems/player_controller.lua:49: in function 'process'
+	libs/tiny.lua:255: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:108: in function 'update'
+	conf.lua:313: in function <conf.lua:159>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-14 07:34:32 ==
+=========================
+
+Error: systems/player_controller.lua:118: attempt to compare table with number
+stack traceback:
+	systems/player_controller.lua:118: in function 'reject_wall'
+	systems/player_controller.lua:61: in function 'process'
+	libs/tiny.lua:255: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:108: in function 'update'
+	conf.lua:313: in function <conf.lua:159>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-14 07:40:40 ==
+=========================
+
+Error: libs/cpml/modules/vec3.lua:54: attempt to index local 'v' (a nil value)
+stack traceback:
+	libs/cpml/modules/vec3.lua:54: in function 'isvector'
+	libs/cpml/modules/vec3.lua:101: in function '__sub'
+	systems/player_controller.lua:54: in function 'process'
+	libs/tiny.lua:255: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:108: in function 'update'
+	conf.lua:313: in function <conf.lua:159>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-14 07:44:07 ==
+=========================
+
+Error: libs/cpml/modules/vec3.lua:54: attempt to index local 'v' (a nil value)
+stack traceback:
+	libs/cpml/modules/vec3.lua:54: in function 'isvector'
+	libs/cpml/modules/vec3.lua:147: in function 'dot'
+	systems/player_controller.lua:122: in function 'reject_wall'
+	systems/player_controller.lua:61: in function 'process'
+	libs/tiny.lua:255: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:108: in function 'update'
+	conf.lua:313: in function <conf.lua:159>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-14 07:48:45 ==
+=========================
+
+Error: libs/cpml/modules/vec3.lua:54: attempt to index local 'v' (a nil value)
+stack traceback:
+	libs/cpml/modules/vec3.lua:54: in function 'isvector'
+	libs/cpml/modules/vec3.lua:147: in function 'dot'
+	systems/player_controller.lua:68: in function 'process'
+	libs/tiny.lua:255: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:108: in function 'update'
+	conf.lua:313: in function <conf.lua:159>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-14 07:51:40 ==
+=========================
+
+Error: libs/cpml/modules/vec3.lua:54: attempt to index local 'v' (a nil value)
+stack traceback:
+	libs/cpml/modules/vec3.lua:54: in function 'isvector'
+	libs/cpml/modules/vec3.lua:147: in function 'dot'
+	systems/player_controller.lua:119: in function 'reject_wall'
+	systems/player_controller.lua:61: in function 'process'
+	libs/tiny.lua:255: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:108: in function 'update'
+	conf.lua:313: in function <conf.lua:159>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-14 07:55:26 ==
+=========================
+
+Error: systems/player_controller.lua:69: attempt to call method 'reflect' (a nil value)
+stack traceback:
+	systems/player_controller.lua:69: in function 'process'
+	libs/tiny.lua:255: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:108: in function 'update'
+	conf.lua:313: in function <conf.lua:159>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-14 08:08:39 ==
+=========================
+
+Error: libs/console.lua:598: bad argument #2 to 'format' (number expected, got nil)
+stack traceback:
+	[C]: in function 'format'
+	libs/console.lua:598: in function 'tagged_print'
+	libs/console.lua:626: in function 'i'
+	systems/player_controller.lua:43: in function 'process'
+	libs/tiny.lua:255: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:108: in function 'update'
+	conf.lua:313: in function <conf.lua:159>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-14 10:02:51 ==
+=========================
+
+Error: libs/cpml/modules/mat4.lua:205: bad argument #1 to 'rad' (number expected, got nil)
+stack traceback:
+	[C]: in function 'rad'
+	libs/cpml/modules/mat4.lua:205: in function 'perspective'
+	systems/render.lua:160: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:112: in function 'update'
+	conf.lua:313: in function <conf.lua:159>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-14 10:36:40 ==
+=========================
+
+Error: Cannot compile pixel shader code:
+Line 130: error: implicit cast from "vec4" to "vec3"
+stack traceback:
+	[C]: in function 'newShader'
+	systems/render.lua:14: in main chunk
+	[C]: in function 'require'
+	main.lua:61: in function 'load'
+	conf.lua:224: in function <conf.lua:159>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-14 10:40:40 ==
+=========================
+
+Error: systems/player_controller.lua:61: attempt to perform arithmetic on field 'camera_offset' (a nil value)
+stack traceback:
+	systems/player_controller.lua:61: in function 'process'
+	libs/tiny.lua:255: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:108: in function 'update'
+	conf.lua:313: in function <conf.lua:159>
+	[builtin#21]: at 0x7fd75e1549f0
+	[C]: in function 'newShader'
+	systems/render.lua:14: in main chunk
+	[C]: in function 'require'
+	main.lua:61: in function 'load'
+	conf.lua:224: in function <conf.lua:159>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-14 10:59:19 ==
+=========================
+
+Error: Cannot compile pixel shader code:
+Line 131: error: undefined variable "u_view_direction"
+stack traceback:
+	[C]: in function 'newShader'
+	systems/render.lua:14: in main chunk
+	[C]: in function 'require'
+	main.lua:61: in function 'load'
+	conf.lua:224: in function <conf.lua:159>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-14 11:01:00 ==
+=========================
+
+Error: Cannot compile pixel shader code:
+Line 131: error: unable to find compatible overloaded function "dot(vec3, vec3, float)"
+Line 131: error: syntax error, unexpected ';', expecting ')' at token ";"
+stack traceback:
+	[C]: in function 'newShader'
+	systems/render.lua:14: in main chunk
+	[C]: in function 'require'
+	main.lua:61: in function 'load'
+	conf.lua:224: in function <conf.lua:159>
+	[builtin#21]: at 0x7fb39e2679f0
+	[C]: in function 'newShader'
+	systems/render.lua:14: in main chunk
+	[C]: in function 'require'
+	main.lua:61: in function 'load'
+	conf.lua:224: in function <conf.lua:159>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-14 11:03:19 ==
+=========================
+
+Error: Cannot compile pixel shader code:
+Line 131: error: too little data in type constructor
+Line 131: error: syntax error, unexpected ';', expecting ')' at token ";"
+stack traceback:
+	[C]: in function 'newShader'
+	systems/render.lua:14: in main chunk
+	[C]: in function 'require'
+	main.lua:61: in function 'load'
+	conf.lua:224: in function <conf.lua:159>
+	[builtin#21]: at 0x7fb39e2679f0
+	[C]: in function 'newShader'
+	systems/render.lua:14: in main chunk
+	[C]: in function 'require'
+	main.lua:61: in function 'load'
+	conf.lua:224: in function <conf.lua:159>
+	[builtin#21]: at 0x7fb39e2679f0
+	[C]: in function 'newShader'
+	systems/render.lua:14: in main chunk
+	[C]: in function 'require'
+	main.lua:61: in function 'load'
+	conf.lua:224: in function <conf.lua:159>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-14 11:10:47 ==
+=========================
+
+Error: Cannot compile pixel shader code:
+Line 103: error: undefined variable "len"
+stack traceback:
+	[C]: in function 'newShader'
+	systems/render.lua:14: in main chunk
+	[C]: in function 'require'
+	main.lua:61: in function 'load'
+	conf.lua:224: in function <conf.lua:159>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-14 11:57:16 ==
+=========================
+
+Error: systems/render.lua:125: attempt to index local 'lights' (a number value)
+stack traceback:
+	systems/render.lua:125: in function 'send_lights'
+	systems/render.lua:222: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:112: in function 'update'
+	conf.lua:313: in function <conf.lua:159>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-14 11:57:41 ==
+=========================
+
+Error: systems/render.lua:131: bad argument #1 to 'insert' (table expected, got nil)
+stack traceback:
+	[C]: in function 'insert'
+	systems/render.lua:131: in function 'send_lights'
+	systems/render.lua:222: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:112: in function 'update'
+	conf.lua:313: in function <conf.lua:159>
+	[C]: in function '__index'
+	systems/render.lua:125: in function 'send_lights'
+	systems/render.lua:222: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:112: in function 'update'
+	conf.lua:313: in function <conf.lua:159>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-14 13:32:29 ==
+=========================
+
+Error: systems/player_controller.lua:162: attempt to index local 'triangle' (a nil value)
+stack traceback:
+	systems/player_controller.lua:162: in function 'snap_to_terrain'
+	systems/player_controller.lua:76: in function 'process'
+	libs/tiny.lua:255: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:108: in function 'update'
+	conf.lua:313: in function <conf.lua:159>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-14 14:15:39 ==
+=========================
+
+Error: libs/love3d/init.lua:684: bad argument #2 to 'translate' (number expected, got nil)
+stack traceback:
+	[C]: in function 'translate'
+	libs/love3d/init.lua:684: in function 'translate'
+	scenes/gameplay.lua:222: in function 'draw'
+	systems/render.lua:62: in function 'draw_overlay'
+	systems/render.lua:274: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:112: in function 'update'
+	conf.lua:313: in function <conf.lua:159>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-14 14:46:43 ==
+=========================
+
+Error: scenes/gameplay.lua:244: Number of vertex components must be a multiple of two
+stack traceback:
+	[C]: in function 'line'
+	scenes/gameplay.lua:244: in function 'draw'
+	systems/render.lua:62: in function 'draw_overlay'
+	systems/render.lua:274: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:112: in function 'update'
+	conf.lua:313: in function <conf.lua:159>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-14 14:49:07 ==
+=========================
+
+Error: scenes/gameplay.lua:249: attempt to perform arithmetic on global 'ldist' (a nil value)
+stack traceback:
+	scenes/gameplay.lua:249: in function 'draw'
+	systems/render.lua:62: in function 'draw_overlay'
+	systems/render.lua:274: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:112: in function 'update'
+	conf.lua:313: in function <conf.lua:159>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-14 15:02:15 ==
+=========================
+
+Error: scenes/gameplay.lua:258: bad argument #1 to 'setFont' (Font expected, got nil)
+stack traceback:
+	[C]: in function 'setFont'
+	scenes/gameplay.lua:258: in function 'draw'
+	systems/render.lua:62: in function 'draw_overlay'
+	systems/render.lua:274: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:112: in function 'update'
+	conf.lua:313: in function <conf.lua:159>
+	[C]: in function '__unm'
+	scenes/gameplay.lua:249: in function 'draw'
+	systems/render.lua:62: in function 'draw_overlay'
+	systems/render.lua:274: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:112: in function 'update'
+	conf.lua:313: in function <conf.lua:159>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-14 15:02:33 ==
+=========================
+
+Error: scenes/gameplay.lua:260: attempt to perform arithmetic on global 'width' (a nil value)
+stack traceback:
+	scenes/gameplay.lua:260: in function 'draw'
+	systems/render.lua:62: in function 'draw_overlay'
+	systems/render.lua:274: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:112: in function 'update'
+	conf.lua:313: in function <conf.lua:159>
+	[builtin#21]: at 0x7fed29fc99f0
+	[C]: in function 'setFont'
+	scenes/gameplay.lua:258: in function 'draw'
+	...
+	conf.lua:313: in function <conf.lua:159>
+	[C]: in function '__unm'
+	scenes/gameplay.lua:249: in function 'draw'
+	systems/render.lua:62: in function 'draw_overlay'
+	systems/render.lua:274: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:112: in function 'update'
+	conf.lua:313: in function <conf.lua:159>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-14 15:03:13 ==
+=========================
+
+Error: scenes/gameplay.lua:260: bad argument #2 to 'format' (number expected, got nil)
+stack traceback:
+	[C]: in function 'format'
+	scenes/gameplay.lua:260: in function 'draw'
+	systems/render.lua:62: in function 'draw_overlay'
+	systems/render.lua:274: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:112: in function 'update'
+	conf.lua:313: in function <conf.lua:159>
+	[C]: in function '__sub'
+	scenes/gameplay.lua:260: in function 'draw'
+	...
+	conf.lua:313: in function <conf.lua:159>
+	[C]: in function '__unm'
+	scenes/gameplay.lua:249: in function 'draw'
+	systems/render.lua:62: in function 'draw_overlay'
+	systems/render.lua:274: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:112: in function 'update'
+	conf.lua:313: in function <conf.lua:159>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-14 15:03:26 ==
+=========================
+
+Error: scenes/gameplay.lua:261: bad argument #1 to 'getWidth' (string expected, got no value)
+stack traceback:
+	[C]: in function 'getWidth'
+	scenes/gameplay.lua:261: in function 'draw'
+	systems/render.lua:62: in function 'draw_overlay'
+	systems/render.lua:274: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:112: in function 'update'
+	conf.lua:313: in function <conf.lua:159>
+	[builtin#21]: at 0x7fed29fc99f0
+	[C]: in function 'format'
+	...
+	conf.lua:313: in function <conf.lua:159>
+	[C]: in function '__unm'
+	scenes/gameplay.lua:249: in function 'draw'
+	systems/render.lua:62: in function 'draw_overlay'
+	systems/render.lua:274: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:112: in function 'update'
+	conf.lua:313: in function <conf.lua:159>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-14 15:03:49 ==
+=========================
+
+Error: scenes/gameplay.lua:262: bad argument #2 to 'printf' (number expected, got string)
+stack traceback:
+	[C]: in function 'printf'
+	scenes/gameplay.lua:262: in function 'draw'
+	systems/render.lua:62: in function 'draw_overlay'
+	systems/render.lua:274: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:112: in function 'update'
+	conf.lua:313: in function <conf.lua:159>
+	[builtin#21]: at 0x7fed29fc99f0
+	[C]: in function 'getWidth'
+	...
+	conf.lua:313: in function <conf.lua:159>
+	[C]: in function '__unm'
+	scenes/gameplay.lua:249: in function 'draw'
+	systems/render.lua:62: in function 'draw_overlay'
+	systems/render.lua:274: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:112: in function 'update'
+	conf.lua:313: in function <conf.lua:159>
+	[C]: in function 'xpcall'
+
+=========================
+== 2015-12-14 15:04:58 ==
+=========================
+
+Error: scenes/gameplay.lua:262: attempt to index global 'font' (a nil value)
+stack traceback:
+	scenes/gameplay.lua:262: in function 'draw'
+	systems/render.lua:62: in function 'draw_overlay'
+	systems/render.lua:274: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:112: in function 'update'
+	conf.lua:313: in function <conf.lua:159>
+	[builtin#21]: at 0x7fed29fc99f0
+	[C]: in function 'printf'
+	scenes/gameplay.lua:262: in function 'draw'
+	...
+	conf.lua:313: in function <conf.lua:159>
+	[C]: in function '__unm'
+	scenes/gameplay.lua:249: in function 'draw'
+	systems/render.lua:62: in function 'draw_overlay'
+	systems/render.lua:274: in function 'update'
+	libs/tiny.lua:708: in function 'update'
+	main.lua:112: in function 'update'
+	conf.lua:313: in function <conf.lua:159>
+	[C]: in function 'xpcall'
